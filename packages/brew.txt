@@ -1,0 +1,12 @@
+fd
+ffmpeg
+fzf
+ghostscript
+imagemagick
+jq
+poppler
+resvg
+ripgrep
+sevenzip
+yazi
+zoxide
