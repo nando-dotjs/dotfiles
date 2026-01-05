@@ -1,0 +1,209 @@
+2026-01-05 10:17:31.755
+Operating System: Linux version 6.12.57+deb13-amd64 (debian-kernel@lists.debian.org) (x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian
+OS/Process: x64/x64
+Emby Server version: 4.9.1.90
+Operating system: Unix 6.12.57.13
+Command Line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+
+App: Emby Web 4.9.1.90
+Firefox
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+
+http://‌‍‍localhost‌:8096/emby/videos/141/main.m3u8?DeviceId=3bd9448e-7c20-4b2d-b06e-6d14069a2ce9&MediaSourceId=mediasource_141&PlaySessionId=a5834ff9d8f24d6eb0b5168aa08cb2bf&api_key=‌290171fe64a04098b9e3f15e2b8a780a‌&VideoCodec=hevc,h264,av1&AudioCodec=aac&VideoBitrate=199616000&AudioBitrate=384000&AudioStreamIndex=1&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&SubtitleStreamIndexes=-1&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline&h264-level=62&hevc-codectag=hvc1,hev1,hevc,hdmv&TranscodeReasons=ContainerNotSupported
+
+http://‌‍‍localhost‌:8096/emby/videos/141/hls1/main/219.ts?PlaySessionId=a5834ff9d8f24d6eb0b5168aa08cb2bf
+
+{"Chapters":[],"Protocol":"File","Id":"mediasource_141","Path":"/mnt/peliculas/28.Days.Later.28.Weeks.Later.Duology.2002-2007.Blu-Ray.1080p.AVC.REMUX.DTS-HDMA.5.1/28.Days.Later.2002.Blu-Ray.1080p.AVC.ReMuX.DTS-HDMA.5.1-R2D2/28.Days.Later.2002.Blu-Ray.1080p.AVC.ReMuX.DTS-HDMA.5.1-R2D2.mkv","Type":"Default","Container":"mkv","Size":33759242211,"Name":"28.Days.Later","IsRemote":false,"HasMixedProtocols":false,"RunTimeTicks":67876140000,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"RequiresClosing":false,"RequiresLooping":false,"SupportsProbing":true,"MediaStreams":[{"Codec":"h264","Language":"eng","ColorTransfer":"bt709","ColorPrimaries":"bt709","ColorSpace":"bt709","TimeBase":"1/1000","VideoRange":"SDR","DisplayTitle":"1080p H264","DisplayLanguage":"English","NalLengthSize":"4","IsInterlaced":false,"BitRate":39789230,"BitDepth":8,"RefFrames":1,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Height":1080,"Width":1920,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"High","Type":"Video","AspectRatio":"16:9","Index":0,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","PixelFormat":"yuv420p","Level":41,"IsAnamorphic":false,"ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"dts","Language":"eng","TimeBase":"1/1000","Title":"Surround 5.1","DisplayTitle":"English DTS-HD MA 5.1","DisplayLanguage":"English","IsInterlaced":false,"ChannelLayout":"5.1","BitDepth":24,"Channels":6,"SampleRate":48000,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Profile":"DTS-HD MA","Type":"Audio","Index":1,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"PGSSUB","Language":"eng","TimeBase":"1/1000","DisplayTitle":"English (PGSSUB)","DisplayLanguage":"English","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":2,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"spa","TimeBase":"1/1000","DisplayTitle":"Spanish (PGSSUB)","DisplayLanguage":"Spanish","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":3,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"spa","TimeBase":"1/1000","DisplayTitle":"Spanish (PGSSUB)","DisplayLanguage":"Spanish","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":4,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"spa","TimeBase":"1/1000","DisplayTitle":"Spanish (PGSSUB)","DisplayLanguage":"Spanish","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":5,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"fra","TimeBase":"1/1000","DisplayTitle":"French (PGSSUB)","DisplayLanguage":"French","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":6,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"fra","TimeBase":"1/1000","DisplayTitle":"French (PGSSUB)","DisplayLanguage":"French","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":7,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"zho","TimeBase":"1/1000","DisplayTitle":"Chinese (PGSSUB)","DisplayLanguage":"Chinese","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":8,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"kor","TimeBase":"1/1000","DisplayTitle":"Korean (PGSSUB)","DisplayLanguage":"Korean","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":9,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"}],"Formats":[],"Bitrate":39789230,"RequiredHttpHeaders":{},"AddApiKeyToDirectStreamUrl":false,"ReadAtNativeFramerate":false,"ItemId":"141"}
+
+>>>>>>  User policy for LinuxNando
+        Enable Playback Remuxing: True
+        Enable Video Playback Transcoding: True
+        Enable Audio Playback Transcoding: True
+
+
+>>>>>>  Processing Plan
+        Name                                        CanDoInHW  WillDoInHW  Reason                                                 
+        Copy video stream                        >> False      False       Software Codec                                          
+        VideoInput                               >> False      False       Not a hardware decoder                                  
+        VideoOutput                              >> False      False       Not a hardware encoder                                  
+        Copy video stream                        >> False      False       Software Codec                                          
+
+>>>>>>  Video Processing Steps for [0:0]: H.264 (AVC)
+        Step                    HW-Context   Format       SW-Format           Size   Next
+        H264                 >> -            yuv420p      yuv420p        1920x1080 >> 
+
+/bin/ffmpeg -loglevel +timing -y -print_graphs_file "/config/logs/ffmpeg-remux-5d1e76e6-c0c3-42dc-a877-a12f5bd9051b_1graph.txt" -copyts -start_at_zero -f matroska,webm -ss 00:21:54.000 -noaccurate_seek -c:v:0 h264 -noautorotate -i "/mnt/peliculas/28.Days.Later.28.Weeks.Later.Duology.2002-2007.Blu-Ray.1080p.AVC.REMUX.DTS-HDMA.5.1/28.Days.Later.2002.Blu-Ray.1080p.AVC.ReMuX.DTS-HDMA.5.1-R2D2/28.Days.Later.2002.Blu-Ray.1080p.AVC.ReMuX.DTS-HDMA.5.1-R2D2.mkv" -map 0:0 -map 0:1 -sn -c:v:0 copy -bsf:v:0 h264_mp4toannexb -c:a:0 aac -ab:a:0 192000 -ac:a:0 2 -metadata:s:a:0 language=eng -filter:a:0 "volume=2" -disposition:a:0 default -max_delay 5000000 -avoid_negative_ts disabled -f segment -map_metadata -1 -map_chapters -1 -segment_format mpegts -segment_list "/config/transcoding-temp/484DA7/484DA7.m3u8" -segment_list_type m3u8 -segment_time 00:00:06.000 -segment_time_delta -00:21:54.000 -segment_start_number 219 -break_non_keyframes 1 -individual_header_trailer 0 -write_header_trailer 0 -segment_write_temp 1 "/config/transcoding-temp/484DA7/484DA7_%d.ts"
+
+10:17:31.778 ffmpeg version 5.1-emby_2023_06_25_p4 Copyright (c) 2000-2022 the FFmpeg developers and softworkz for Emby LLC
+10:17:31.778   built with gcc 10.3.0 (crosstool-NG 1.25.0)
+10:17:31.778 Execution Date: 2026-01-05 10:17:31
+10:17:31.787 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 2 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 3 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 4 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 5 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 6 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 7 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 8 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.788 [matroska,webm @ 0x7035900] Could not find codec parameters for stream 9 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+10:17:31.789 Input #0, matroska,webm, from '/mnt/peliculas/28.Days.Later.28.Weeks.Later.Duology.2002-2007.Blu-Ray.1080p.AVC.REMUX.DTS-HDMA.5.1/28.Days.Later.2002.Blu-Ray.1080p.AVC.ReMuX.DTS-HDMA.5.1-R2D2/28.Days.Later.2002.Blu-Ray.1080p.AVC.ReMuX.DTS-HDMA.5.1-R2D2.mkv':
+10:17:31.789   Metadata:
+10:17:31.789     encoder         : libmakemkv v1.8.8 (1.3.0/1.4.1) win(x64-release)
+10:17:31.789     creation_time   : 2014-03-10T16:22:14.000000Z
+10:17:31.789   Duration: 01:53:07.61, start: 0.000000, bitrate: 39789 kb/s
+10:17:31.790   Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], Level 41, 23.98 fps, 23.98 tbr, 1k tbn
+10:17:31.790   Stream #0:1(eng): Audio: dts (DTS-HD MA), 48000 Hz, 5.1(side), s32p (24 bit)
+10:17:31.790     Metadata:
+10:17:31.790       title           : Surround 5.1
+10:17:31.790   Stream #0:2(eng): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:3(spa): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:4(spa): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:5(spa): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:6(fra): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:7(fra): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:8(zho): Subtitle: hdmv_pgs_subtitle
+10:17:31.790   Stream #0:9(kor): Subtitle: hdmv_pgs_subtitle
+10:17:31.790 Stream mapping:
+10:17:31.790   Stream #0:0 -> #0:0 (copy)
+10:17:31.790   Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+10:17:31.790 Press [q] to stop, [?] for help
+10:17:31.805 Output #0, segment, to '/config/transcoding-temp/484DA7/484DA7_%d.ts':
+10:17:31.805   Metadata:
+10:17:31.805     encoder         : Lavf59.27.100
+10:17:31.805   Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, Level 41, 23.98 fps, 23.98 tbr, 90k tbn
+10:17:31.806   Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp, 192 kb/s (default)
+10:17:31.806     Metadata:
+10:17:31.806       encoder         : Lavc59.37.100 aac
+10:17:31.806 elapsed=00:00:00.01 frame=    3 fps=0.0 q=-1.0 size=N/A time=-00:21:52.89 bitrate=N/A throttle=off speed=N/A    
+10:17:31.814 [segment @ 0x706ee00] Non-monotonous DTS in output stream 0:0; previous: 118164060, current: 118160550; changing to 118164061. This may result in incorrect timestamps in the output file.
+10:17:32.200 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:32.200 SegmentComplete=video:0 Index=219 Start=0.000000 End=1319.943000 Duration=1319.943000 offset_pts=0 start_pts=0 Frames=169 filename=484DA7_219.ts
+10:17:32.200 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_220.ts.tmp' for writing
+10:17:32.304 elapsed=00:00:00.51 frame=  226 fps=0.0 q=-1.0 size=N/A time=00:00:09.38 bitrate=N/A throttle=off speed=18.3x    
+10:17:32.442 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:32.442 SegmentComplete=video:0 Index=220 Start=1320.027000 End=1325.949000 Duration=5.922000 offset_pts=0 start_pts=1320027000 Frames=144 filename=484DA7_220.ts
+10:17:32.442 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_221.ts.tmp' for writing
+10:17:32.711 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:32.712 SegmentComplete=video:0 Index=221 Start=1326.033000 End=1332.038000 Duration=6.005000 offset_pts=0 start_pts=1326033000 Frames=146 filename=484DA7_221.ts
+10:17:32.712 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_222.ts.tmp' for writing
+10:17:32.805 elapsed=00:00:01.01 frame=  513 fps=506 q=-1.0 size=N/A time=00:00:21.33 bitrate=N/A throttle=off speed=  21x    
+10:17:32.975 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:32.975 SegmentComplete=video:0 Index=222 Start=1332.081000 End=1337.961000 Duration=5.880000 offset_pts=0 start_pts=1332081000 Frames=142 filename=484DA7_222.ts
+10:17:32.975 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_223.ts.tmp' for writing
+10:17:33.259 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:33.259 SegmentComplete=video:0 Index=223 Start=1338.045000 End=1343.925000 Duration=5.880000 offset_pts=0 start_pts=1338045000 Frames=143 filename=484DA7_223.ts
+10:17:33.259 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_224.ts.tmp' for writing
+10:17:33.305 elapsed=00:00:01.51 frame=  780 fps=515 q=-1.0 size=N/A time=00:00:32.47 bitrate=N/A throttle=off speed=21.4x    
+10:17:33.491 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:33.491 SegmentComplete=video:0 Index=224 Start=1344.009000 End=1349.973000 Duration=5.964000 offset_pts=0 start_pts=1344009000 Frames=145 filename=484DA7_224.ts
+10:17:33.491 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_225.ts.tmp' for writing
+10:17:33.723 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:33.723 SegmentComplete=video:0 Index=225 Start=1350.057000 End=1355.979000 Duration=5.922000 offset_pts=0 start_pts=1350057000 Frames=144 filename=484DA7_225.ts
+10:17:33.723 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_226.ts.tmp' for writing
+10:17:33.805 elapsed=00:00:02.01 frame= 1093 fps=542 q=-1.0 size=N/A time=00:00:45.54 bitrate=N/A throttle=off speed=22.6x    
+10:17:33.927 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:33.927 SegmentComplete=video:0 Index=226 Start=1356.063000 End=1361.943000 Duration=5.880000 offset_pts=0 start_pts=1356063000 Frames=143 filename=484DA7_226.ts
+10:17:33.927 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_227.ts.tmp' for writing
+10:17:34.153 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:34.153 SegmentComplete=video:0 Index=227 Start=1362.027000 End=1367.949000 Duration=5.922000 offset_pts=0 start_pts=1362027000 Frames=144 filename=484DA7_227.ts
+10:17:34.153 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_228.ts.tmp' for writing
+10:17:34.305 elapsed=00:00:02.51 frame= 1451 fps=577 q=-1.0 size=N/A time=00:01:00.39 bitrate=N/A throttle=off speed=  24x    
+10:17:34.326 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:34.327 SegmentComplete=video:0 Index=228 Start=1368.033000 End=1373.955000 Duration=5.922000 offset_pts=0 start_pts=1368033000 Frames=144 filename=484DA7_228.ts
+10:17:34.327 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_229.ts.tmp' for writing
+10:17:34.552 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:34.553 SegmentComplete=video:0 Index=229 Start=1374.039000 End=1379.961000 Duration=5.922000 offset_pts=0 start_pts=1374039000 Frames=144 filename=484DA7_229.ts
+10:17:34.553 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_230.ts.tmp' for writing
+10:17:34.742 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:34.742 SegmentComplete=video:0 Index=230 Start=1380.045000 End=1385.926000 Duration=5.881000 offset_pts=0 start_pts=1380045000 Frames=143 filename=484DA7_230.ts
+10:17:34.742 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_231.ts.tmp' for writing
+10:17:34.805 elapsed=00:00:03.01 frame= 1790 fps=594 q=-1.0 size=N/A time=00:01:14.62 bitrate=N/A throttle=off speed=24.7x    
+10:17:34.938 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:34.938 SegmentComplete=video:0 Index=231 Start=1386.010000 End=1391.932000 Duration=5.922000 offset_pts=0 start_pts=1386010000 Frames=144 filename=484DA7_231.ts
+10:17:34.938 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_232.ts.tmp' for writing
+10:17:35.133 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:35.133 SegmentComplete=video:0 Index=232 Start=1392.016000 End=1397.938000 Duration=5.922000 offset_pts=0 start_pts=1392016000 Frames=144 filename=484DA7_232.ts
+10:17:35.133 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_233.ts.tmp' for writing
+10:17:35.306 elapsed=00:00:03.51 frame= 2162 fps=615 q=-1.0 size=N/A time=00:01:30.11 bitrate=N/A throttle=off speed=25.6x    
+10:17:35.344 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:35.344 SegmentComplete=video:0 Index=233 Start=1398.022000 End=1403.944000 Duration=5.922000 offset_pts=0 start_pts=1398022000 Frames=144 filename=484DA7_233.ts
+10:17:35.344 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_234.ts.tmp' for writing
+10:17:35.527 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:35.527 SegmentComplete=video:0 Index=234 Start=1404.028000 End=1409.991000 Duration=5.963000 offset_pts=0 start_pts=1404028000 Frames=145 filename=484DA7_234.ts
+10:17:35.527 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_235.ts.tmp' for writing
+10:17:35.722 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:35.723 SegmentComplete=video:0 Index=235 Start=1410.075000 End=1415.997000 Duration=5.922000 offset_pts=0 start_pts=1410075000 Frames=144 filename=484DA7_235.ts
+10:17:35.723 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_236.ts.tmp' for writing
+10:17:35.806 elapsed=00:00:04.01 frame= 2538 fps=632 q=-1.0 size=N/A time=00:01:45.87 bitrate=N/A throttle=off speed=26.4x    
+10:17:35.913 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:35.913 SegmentComplete=video:0 Index=236 Start=1416.081000 End=1422.003000 Duration=5.922000 offset_pts=0 start_pts=1416081000 Frames=144 filename=484DA7_236.ts
+10:17:35.913 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_237.ts.tmp' for writing
+10:17:36.125 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:36.126 SegmentComplete=video:0 Index=237 Start=1422.087000 End=1427.968000 Duration=5.881000 offset_pts=0 start_pts=1422087000 Frames=143 filename=484DA7_237.ts
+10:17:36.126 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_238.ts.tmp' for writing
+10:17:36.306 elapsed=00:00:04.51 frame= 2891 fps=640 q=-1.0 size=N/A time=00:02:00.55 bitrate=N/A throttle=off speed=26.7x    
+10:17:36.322 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:36.322 SegmentComplete=video:0 Index=238 Start=1428.052000 End=1433.932000 Duration=5.880000 offset_pts=0 start_pts=1428052000 Frames=143 filename=484DA7_238.ts
+10:17:36.322 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_239.ts.tmp' for writing
+10:17:36.572 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:36.572 SegmentComplete=video:0 Index=239 Start=1434.016000 End=1439.938000 Duration=5.922000 offset_pts=0 start_pts=1434016000 Frames=144 filename=484DA7_239.ts
+10:17:36.572 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_240.ts.tmp' for writing
+10:17:36.776 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:36.776 SegmentComplete=video:0 Index=240 Start=1440.022000 End=1445.986000 Duration=5.964000 offset_pts=0 start_pts=1440022000 Frames=145 filename=484DA7_240.ts
+10:17:36.776 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_241.ts.tmp' for writing
+10:17:36.806 elapsed=00:00:05.01 frame= 3217 fps=641 q=-1.0 size=N/A time=00:02:14.08 bitrate=N/A throttle=off speed=26.7x    
+10:17:36.969 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:36.969 SegmentComplete=video:0 Index=241 Start=1446.070000 End=1451.992000 Duration=5.922000 offset_pts=0 start_pts=1446070000 Frames=144 filename=484DA7_241.ts
+10:17:36.969 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_242.ts.tmp' for writing
+10:17:37.190 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:37.190 SegmentComplete=video:0 Index=242 Start=1452.076000 End=1457.998000 Duration=5.922000 offset_pts=0 start_pts=1452076000 Frames=144 filename=484DA7_242.ts
+10:17:37.190 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_243.ts.tmp' for writing
+10:17:37.307 elapsed=00:00:05.51 frame= 3560 fps=645 q=-1.0 size=N/A time=00:02:28.48 bitrate=N/A throttle=off speed=26.9x    
+10:17:37.406 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:37.406 SegmentComplete=video:0 Index=243 Start=1458.082000 End=1464.004000 Duration=5.922000 offset_pts=0 start_pts=1458082000 Frames=144 filename=484DA7_243.ts
+10:17:37.406 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_244.ts.tmp' for writing
+10:17:37.606 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:37.606 SegmentComplete=video:0 Index=244 Start=1464.088000 End=1469.926000 Duration=5.838000 offset_pts=0 start_pts=1464088000 Frames=142 filename=484DA7_244.ts
+10:17:37.606 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_245.ts.tmp' for writing
+10:17:37.808 elapsed=00:00:06.01 frame= 3897 fps=648 q=-1.0 size=N/A time=00:02:42.45 bitrate=N/A throttle=off speed=  27x    
+10:17:37.827 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:37.827 SegmentComplete=video:0 Index=245 Start=1470.010000 End=1475.932000 Duration=5.922000 offset_pts=0 start_pts=1470010000 Frames=144 filename=484DA7_245.ts
+10:17:37.827 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_246.ts.tmp' for writing
+10:17:38.036 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:38.036 SegmentComplete=video:0 Index=246 Start=1476.016000 End=1482.022000 Duration=6.006000 offset_pts=0 start_pts=1476016000 Frames=146 filename=484DA7_246.ts
+10:17:38.036 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_247.ts.tmp' for writing
+10:17:38.285 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:38.285 SegmentComplete=video:0 Index=247 Start=1482.106000 End=1487.986000 Duration=5.880000 offset_pts=0 start_pts=1482106000 Frames=143 filename=484DA7_247.ts
+10:17:38.285 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_248.ts.tmp' for writing
+10:17:38.308 elapsed=00:00:06.51 frame= 4209 fps=646 q=-1.0 size=N/A time=00:02:55.55 bitrate=N/A throttle=off speed=26.9x    
+10:17:38.559 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:38.559 SegmentComplete=video:0 Index=248 Start=1488.070000 End=1493.992000 Duration=5.922000 offset_pts=0 start_pts=1488070000 Frames=144 filename=484DA7_248.ts
+10:17:38.559 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_249.ts.tmp' for writing
+10:17:38.808 elapsed=00:00:07.01 frame= 4471 fps=637 q=-1.0 size=N/A time=00:03:06.41 bitrate=N/A throttle=off speed=26.6x    
+10:17:38.827 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:38.827 SegmentComplete=video:0 Index=249 Start=1494.076000 End=1499.998000 Duration=5.922000 offset_pts=0 start_pts=1494076000 Frames=144 filename=484DA7_249.ts
+10:17:38.827 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_250.ts.tmp' for writing
+10:17:39.066 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+10:17:39.066 SegmentComplete=video:0 Index=250 Start=1500.082000 End=1506.004000 Duration=5.922000 offset_pts=0 start_pts=1500082000 Frames=144 filename=484DA7_250.ts
+10:17:39.066 [segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7_251.ts.tmp' for writing
+10:17:39.141 
+
+[q] command received. Exiting.
+
+[segment @ 0x706ee00] Opening '/config/transcoding-temp/484DA7/484DA7.m3u8.tmp' for writing
+SegmentComplete=video:0 Index=251 Start=1506.088000 End=1507.380000 Duration=1.292000 offset_pts=0 start_pts=1506088000 Frames=33 filename=484DA7_251.ts
+elapsed=00:00:07.35 frame= 4663 fps=634 q=-1.0 Lsize=N/A time=00:03:14.47 bitrate=N/A throttle=off speed=26.5x    
+video:874935kB audio:4594kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+[aac @ 0x7071d40] Qavg: 1037.638
+EXIT
+
+======= ExtraData
+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
+---

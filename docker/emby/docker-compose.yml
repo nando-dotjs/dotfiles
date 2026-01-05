@@ -1,0 +1,25 @@
+services:
+  emby:
+    image: emby/embyserver:latest
+    container_name: emby
+    restart: unless-stopped
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    ports:
+      - "8096:8096"     # HTTP
+      - "8920:8920"     # HTTPS (opcional)
+
+    environment:
+      - UID=1000
+      - GID=1000
+      - TZ=America/Montevideo
+
+    volumes:
+      # Configuración de Emby
+      - /home/nando/docker/emby/config:/config
+      - /home/nando/docker/emby/cache:/cache
+
+      # Media (TODO en tu HOME)
+      - /home/nando/media/series:/mnt/series
+      - /home/nando/media/peliculas:/mnt/peliculas

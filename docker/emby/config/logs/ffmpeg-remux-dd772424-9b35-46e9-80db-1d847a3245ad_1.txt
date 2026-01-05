@@ -1,0 +1,315 @@
+2026-01-02 23:29:30.826
+Operating System: Linux version 6.12.57+deb13-amd64 (debian-kernel@lists.debian.org) (x86_64-linux-gnu-gcc-14 (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian
+OS/Process: x64/x64
+Emby Server version: 4.9.1.90
+Operating system: Unix 6.12.57.13
+Command Line: /system/EmbyServer.dll -programdata /config -ffdetect /bin/ffdetect -ffmpeg /bin/ffmpeg -ffprobe /bin/ffprobe -restartexitcode 3
+
+App: Emby Web 4.9.1.90
+Firefox
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0
+
+http://‌‍‍localhost‌:8096/emby/videos/135/main.m3u8?DeviceId=3bd9448e-7c20-4b2d-b06e-6d14069a2ce9&MediaSourceId=mediasource_135&PlaySessionId=471e803050544ea892b8110276c90373&api_key=‌290171fe64a04098b9e3f15e2b8a780a‌&VideoCodec=hevc,h264,av1&AudioCodec=aac&VideoBitrate=199616000&AudioBitrate=384000&AudioStreamIndex=1&SubtitleStreamIndex=6&SubtitleMethod=Hls&TranscodingMaxAudioChannels=2&SegmentContainer=ts&MinSegments=1&BreakOnNonKeyFrames=True&SubtitleStreamIndexes=5,6,7&ManifestSubtitles=vtt&h264-profile=high,main,baseline,constrainedbaseline&h264-level=62&hevc-codectag=hvc1,hev1,hevc,hdmv&TranscodeReasons=ContainerNotSupported
+
+http://‌‍‍localhost‌:8096/emby/videos/135/hls1/main/41.ts?PlaySessionId=471e803050544ea892b8110276c90373
+
+{"Chapters":[],"Protocol":"File","Id":"mediasource_135","Path":"/mnt/peliculas/Django.Unchained.2012.1080p.REMUX.ENG.And.ESP.LATINO.DTS-HD.Master.DDP5.1.MKV-BEN.THE.MEN/Django.Unchained.2012.1080p.REMUX.ENG.And.ESP.LATINO.DTS-HD.Master.DDP5.1.MKV-BEN.THE.MEN.mkv","Type":"Default","Container":"mkv","Size":34364950038,"Name":"Django.Unchained.1080p.REMUX[Ben The Men]","IsRemote":false,"HasMixedProtocols":false,"RunTimeTicks":99229440000,"SupportsTranscoding":true,"SupportsDirectStream":true,"SupportsDirectPlay":true,"IsInfiniteStream":false,"RequiresOpening":false,"RequiresClosing":false,"RequiresLooping":false,"SupportsProbing":true,"MediaStreams":[{"Codec":"h264","Language":"eng","TimeBase":"1/1000","Title":"BTM","VideoRange":"SDR","DisplayTitle":"1080p H264","DisplayLanguage":"English","NalLengthSize":"4","IsInterlaced":false,"BitRate":27705447,"BitDepth":8,"RefFrames":1,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Height":1080,"Width":1920,"AverageFrameRate":23.976025,"RealFrameRate":23.976025,"Profile":"High","Type":"Video","AspectRatio":"16:9","Index":0,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","PixelFormat":"yuv420p","Level":41,"IsAnamorphic":false,"ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"dts","Language":"eng","TimeBase":"1/1000","Title":"BTM DTS-HD Master","DisplayTitle":"English DTS-HD MA 5.1 (Por defecto)","DisplayLanguage":"English","IsInterlaced":false,"ChannelLayout":"5.1","BitDepth":16,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Profile":"DTS-HD MA","Type":"Audio","Index":1,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"eac3","Language":"eng","TimeBase":"1/1000","Title":"BTM DDP5.1","DisplayTitle":"English EAC3 5.1 (Por defecto)","DisplayLanguage":"English","IsInterlaced":false,"ChannelLayout":"5.1","BitRate":960000,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Type":"Audio","Index":2,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"ac3","Language":"eng","TimeBase":"1/1000","Title":"BTM HeadPhones","DisplayTitle":"English AC3 stereo (Por defecto)","DisplayLanguage":"English","IsInterlaced":false,"ChannelLayout":"stereo","BitRate":640000,"Channels":2,"SampleRate":48000,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Type":"Audio","Index":3,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"eac3","Language":"spa","TimeBase":"1/1000","Title":"BTM DDP5.1","DisplayTitle":"Spanish EAC3 5.1 (Por defecto)","DisplayLanguage":"Spanish","IsInterlaced":false,"ChannelLayout":"5.1","BitRate":960000,"Channels":6,"SampleRate":48000,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Type":"Audio","Index":4,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0},{"Codec":"subrip","Language":"eng","TimeBase":"1/1000","Title":"BTM","DisplayTitle":"English (Por defecto SUBRIP)","DisplayLanguage":"English","IsInterlaced":false,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":5,"IsExternal":false,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"subrip","Language":"spa","TimeBase":"1/1000","Title":"BTM","DisplayTitle":"Spanish (Por defecto SUBRIP)","DisplayLanguage":"Spanish","IsInterlaced":false,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":6,"IsExternal":false,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"subrip","Language":"eng","TimeBase":"1/1000","Title":"BTM","DisplayTitle":"English (Por defecto SUBRIP)","DisplayLanguage":"English","IsInterlaced":false,"IsDefault":true,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":7,"IsExternal":false,"IsTextSubtitleStream":true,"SupportsExternalStream":true,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"PGSSUB","Language":"eng","TimeBase":"1/1000","Title":"BTM","DisplayTitle":"English (PGSSUB)","DisplayLanguage":"English","IsInterlaced":false,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Type":"Subtitle","Index":8,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0,"SubtitleLocationType":"InternalStream"},{"Codec":"mjpeg","ColorSpace":"bt470bg","TimeBase":"1/90000","IsInterlaced":false,"BitDepth":8,"RefFrames":1,"IsDefault":false,"IsForced":false,"IsHearingImpaired":false,"Height":640,"Width":640,"RealFrameRate":90000,"Profile":"Progressive","Type":"EmbeddedImage","AspectRatio":"1:1","Index":9,"IsExternal":false,"IsTextSubtitleStream":false,"SupportsExternalStream":false,"Protocol":"File","PixelFormat":"yuvj420p","Level":-99,"IsAnamorphic":false,"ExtendedVideoType":"None","ExtendedVideoSubType":"None","ExtendedVideoSubTypeDescription":"None","AttachmentSize":0}],"Formats":[],"Bitrate":27705447,"RequiredHttpHeaders":{},"AddApiKeyToDirectStreamUrl":false,"ReadAtNativeFramerate":false,"ItemId":"135"}
+
+>>>>>>  User policy for LinuxNando
+        Enable Playback Remuxing: True
+        Enable Video Playback Transcoding: True
+        Enable Audio Playback Transcoding: True
+
+
+>>>>>>  Processing Plan
+        Name                                        CanDoInHW  WillDoInHW  Reason                                                 
+        Copy video stream                        >> False      False       Software Codec                                          
+        VideoInput                               >> False      False       Not a hardware decoder                                  
+        VideoOutput                              >> False      False       Not a hardware encoder                                  
+        Copy video stream                        >> False      False       Software Codec                                          
+
+>>>>>>  Video Processing Steps for [0:0]: H.264 (AVC)
+        Step                    HW-Context   Format       SW-Format           Size   Next
+        H264                 >> -            yuv420p      yuv420p        1920x1080 >> 
+
+/bin/ffmpeg -loglevel +timing -y -print_graphs_file "/config/logs/ffmpeg-remux-dd772424-9b35-46e9-80db-1d847a3245ad_1graph.txt" -copyts -start_at_zero -f matroska,webm -ss 00:04:06.000 -noaccurate_seek -c:v:0 h264 -noautorotate -c:v:1 mjpeg -i "/mnt/peliculas/Django.Unchained.2012.1080p.REMUX.ENG.And.ESP.LATINO.DTS-HD.Master.DDP5.1.MKV-BEN.THE.MEN/Django.Unchained.2012.1080p.REMUX.ENG.And.ESP.LATINO.DTS-HD.Master.DDP5.1.MKV-BEN.THE.MEN.mkv" -map 0:0 -map 0:1 -sn -c:v:0 copy -bsf:v:0 h264_mp4toannexb -c:a:0 aac -ab:a:0 192000 -ac:a:0 2 -metadata:s:a:0 language=eng -filter:a:0 "volume=2" -disposition:a:0 default -max_delay 5000000 -avoid_negative_ts disabled -f segment -map_metadata -1 -map_chapters -1 -segment_format mpegts -segment_list "/config/transcoding-temp/7F955A/7F955A.m3u8" -segment_list_type m3u8 -segment_time 00:00:06.000 -segment_time_delta -00:04:06.000 -segment_start_number 41 -break_non_keyframes 1 -individual_header_trailer 0 -write_header_trailer 0 -segment_write_temp 1 "/config/transcoding-temp/7F955A/7F955A_%d.ts" -map 0:5 -vn -an -c:s:0 webvtt -max_delay 5000000 -avoid_negative_ts disabled -f segment -map_metadata -1 -segment_format webvtt -segment_list "/config/transcoding-temp/7F955A/7F955A_s5.m3u8" -segment_list_type m3u8 -segment_time 00:00:06.000 -segment_start_number 41 -break_non_keyframes 1 -individual_header_trailer 1 -write_header_trailer 0 -write_empty_segments 1 -segment_write_temp 1 -min_frame_time 00:04:06.000 "/config/transcoding-temp/7F955A/7F955A_s5_%d.vtt" -map 0:6 -vn -an -c:s:0 webvtt -max_delay 5000000 -avoid_negative_ts disabled -f segment -map_metadata -1 -segment_format webvtt -segment_list "/config/transcoding-temp/7F955A/7F955A_s6.m3u8" -segment_list_type m3u8 -segment_time 00:00:06.000 -segment_start_number 41 -break_non_keyframes 1 -individual_header_trailer 1 -write_header_trailer 0 -write_empty_segments 1 -segment_write_temp 1 -min_frame_time 00:04:06.000 "/config/transcoding-temp/7F955A/7F955A_s6_%d.vtt" -map 0:7 -vn -an -c:s:0 webvtt -max_delay 5000000 -avoid_negative_ts disabled -f segment -map_metadata -1 -segment_format webvtt -segment_list "/config/transcoding-temp/7F955A/7F955A_s7.m3u8" -segment_list_type m3u8 -segment_time 00:00:06.000 -segment_start_number 41 -break_non_keyframes 1 -individual_header_trailer 1 -write_header_trailer 0 -write_empty_segments 1 -segment_write_temp 1 -min_frame_time 00:04:06.000 "/config/transcoding-temp/7F955A/7F955A_s7_%d.vtt"
+
+23:29:30.831 ffmpeg version 5.1-emby_2023_06_25_p4 Copyright (c) 2000-2022 the FFmpeg developers and softworkz for Emby LLC
+23:29:30.831   built with gcc 10.3.0 (crosstool-NG 1.25.0)
+23:29:30.831 Execution Date: 2026-01-02 23:29:30
+23:29:30.860 [matroska,webm @ 0xc1d1c80] Stream #9: not enough frames to estimate rate; consider increasing probesize
+23:29:30.860 [matroska,webm @ 0xc1d1c80] Could not find codec parameters for stream 8 (Subtitle: hdmv_pgs_subtitle (pgssub)): unspecified size
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+23:29:30.864 Input #0, matroska,webm, from '/mnt/peliculas/Django.Unchained.2012.1080p.REMUX.ENG.And.ESP.LATINO.DTS-HD.Master.DDP5.1.MKV-BEN.THE.MEN/Django.Unchained.2012.1080p.REMUX.ENG.And.ESP.LATINO.DTS-HD.Master.DDP5.1.MKV-BEN.THE.MEN.mkv':
+23:29:30.864   Metadata:
+23:29:30.864     title           : Django.Unchained.1080p.REMUX[Ben The Men]
+23:29:30.864     encoder         : libebml v1.4.4 + libmatroska v1.7.1
+23:29:30.864     creation_time   : 2023-09-23T11:19:46.000000Z
+23:29:30.864   Duration: 02:45:22.94, start: 0.000000, bitrate: 27705 kb/s
+23:29:30.864   Stream #0:0(eng): Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], Level 41, 23.98 fps, 23.98 tbr, 1k tbn
+23:29:30.864     Metadata:
+23:29:30.864       title           : BTM
+23:29:30.864       BPS             : 22922811
+23:29:30.864       DURATION        : 02:45:22.913000000
+23:29:30.864       NUMBER_OF_FRAMES: 237912
+23:29:30.864       NUMBER_OF_BYTES : 28432633526
+23:29:30.864       SOURCE_ID       : 001011
+23:29:30.864   Stream #0:1(eng): Audio: dts (DTS-HD MA), 48000 Hz, 5.1(side), s16p (default)
+23:29:30.864     Metadata:
+23:29:30.864       title           : BTM DTS-HD Master
+23:29:30.864       BPS             : 2203848
+23:29:30.864       DURATION        : 02:45:22.923000000
+23:29:30.864       NUMBER_OF_FRAMES: 930274
+23:29:30.864       NUMBER_OF_BYTES : 2733577116
+23:29:30.864       SOURCE_ID       : 001100
+23:29:30.864   Stream #0:2(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 960 kb/s (default)
+23:29:30.864     Metadata:
+23:29:30.864       title           : BTM DDP5.1
+23:29:30.864       BPS             : 960000
+23:29:30.864       DURATION        : 02:45:22.944000000
+23:29:30.864       NUMBER_OF_FRAMES: 310092
+23:29:30.864       NUMBER_OF_BYTES : 1190753280
+23:29:30.864   Stream #0:3(eng): Audio: ac3, 48000 Hz, stereo, fltp, 640 kb/s (default)
+23:29:30.864     Metadata:
+23:29:30.864       title           : BTM HeadPhones
+23:29:30.864       BPS             : 640000
+23:29:30.864       DURATION        : 02:45:21.600000000
+23:29:30.864       NUMBER_OF_FRAMES: 310050
+23:29:30.864       NUMBER_OF_BYTES : 793728000
+23:29:30.864   Stream #0:4(spa): Audio: eac3, 48000 Hz, 5.1(side), fltp, 960 kb/s (default)
+23:29:30.864     Metadata:
+23:29:30.865       title           : BTM DDP5.1
+23:29:30.865       BPS             : 960000
+23:29:30.865       DURATION        : 02:45:21.600000000
+23:29:30.865       NUMBER_OF_FRAMES: 310050
+23:29:30.865       NUMBER_OF_BYTES : 1190592000
+23:29:30.865   Stream #0:5(eng): Subtitle: subrip (default)
+23:29:30.865     Metadata:
+23:29:30.865       title           : BTM
+23:29:30.865       BPS             : 61
+23:29:30.865       DURATION        : 02:44:55.720000000
+23:29:30.865       NUMBER_OF_FRAMES: 2098
+23:29:30.865       NUMBER_OF_BYTES : 76513
+23:29:30.865   Stream #0:6(spa): Subtitle: subrip (default)
+23:29:30.865     Metadata:
+23:29:30.865       title           : BTM
+23:29:30.865       BPS             : 59
+23:29:30.865       DURATION        : 02:40:46.246000000
+23:29:30.865       NUMBER_OF_FRAMES: 1964
+23:29:30.865       NUMBER_OF_BYTES : 72343
+23:29:30.865   Stream #0:7(eng): Subtitle: subrip (default)
+23:29:30.865     Metadata:
+23:29:30.865       title           : BTM
+23:29:30.865       BPS             : 56
+23:29:30.865       DURATION        : 02:40:57.773000000
+23:29:30.865       NUMBER_OF_FRAMES: 1819
+23:29:30.865       NUMBER_OF_BYTES : 67736
+23:29:30.865   Stream #0:8(eng): Subtitle: hdmv_pgs_subtitle
+23:29:30.865     Metadata:
+23:29:30.865       title           : BTM
+23:29:30.865       BPS             : 33295
+23:29:30.865       DURATION        : 02:40:57.773000000
+23:29:30.865       NUMBER_OF_FRAMES: 3750
+23:29:30.865       NUMBER_OF_BYTES : 40195119
+23:29:30.865       SOURCE_ID       : 001200
+23:29:30.865   Stream #0:9: Video: mjpeg (Progressive), yuvj420p(pc, bt470bg/unknown/unknown), 640x640 [SAR 1:1 DAR 1:1], 90k tbr, 90k tbn (attached pic)
+23:29:30.865     Metadata:
+23:29:30.865       filename        : www.GDRIVELatinoHD.net.jpeg
+23:29:30.865       mimetype        : image/jpeg
+23:29:30.865 Stream mapping:
+23:29:30.865   Stream #0:0 -> #0:0 (copy)
+23:29:30.865   Stream #0:1 -> #0:1 (dts (dca) -> aac (native))
+23:29:30.865   Stream #0:5 -> #1:0 (subrip (srt) -> webvtt (native))
+23:29:30.865   Stream #0:6 -> #2:0 (subrip (srt) -> webvtt (native))
+23:29:30.865   Stream #0:7 -> #3:0 (subrip (srt) -> webvtt (native))
+23:29:30.865 Press [q] to stop, [?] for help
+23:29:30.865 subtitle_kickoff: call subtitle_resend_current 245547 frame->format: 3
+23:29:30.866 subtitle input filter: decoding size 384x288
+23:29:30.866 subtitle_kickoff: call subtitle_resend_current 245505 frame->format: 3
+23:29:30.866 subtitle input filter: decoding size 384x288
+23:29:30.867 Output #0, segment, to '/config/transcoding-temp/7F955A/7F955A_%d.ts':
+23:29:30.867   Metadata:
+23:29:30.867     encoder         : Lavf59.27.100
+23:29:30.867   Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, Level 41, 23.98 fps, 23.98 tbr, 90k tbn
+23:29:30.867   Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp, 192 kb/s (default)
+23:29:30.867     Metadata:
+23:29:30.867       encoder         : Lavc59.37.100 aac
+23:29:30.867 [segment @ 0xc343b00] Non-monotonous DTS in output stream 0:0; previous: 22094550, current: 22094550; changing to 22094551. This may result in incorrect timestamps in the output file.
+23:29:30.874 subtitle_kickoff: resend - pts: 245620
+23:29:30.874 subtitle_kickoff: call subtitle_resend_current 245630 frame->format: 3
+    Last message repeated 1 times
+23:29:30.874 subtitle input filter: decoding size 384x288
+23:29:31.044 subtitle_kickoff: resend - pts: 250667
+23:29:31.044 subtitle_kickoff: call subtitle_resend_current 250677 frame->format: 3
+23:29:31.106 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:31.107 SegmentComplete=video:0 Index=41 Start=0.000000 End=251.959000 Duration=251.959000 offset_pts=0 start_pts=0 Frames=155 filename=7F955A_41.ts
+23:29:31.107 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_42.ts.tmp' for writing
+23:29:31.233 subtitle_kickoff: resend - pts: 255714
+23:29:31.233 subtitle_kickoff: call subtitle_resend_current 255724 frame->format: 3
+23:29:31.322 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:31.323 SegmentComplete=video:0 Index=42 Start=252.002000 End=258.007000 Duration=6.005000 offset_pts=0 start_pts=252002000 Frames=145 filename=7F955A_42.ts
+23:29:31.323 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_43.ts.tmp' for writing
+23:29:31.338 Output #3, segment, to '/config/transcoding-temp/7F955A/7F955A_s7_%d.vtt':
+23:29:31.338   Metadata:
+23:29:31.338     encoder         : Lavf59.27.100
+23:29:31.338   Stream #3:0: Subtitle: webvtt (default)
+23:29:31.338     Metadata:
+23:29:31.338       encoder         : Lavc59.37.100 webvtt
+23:29:31.338 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:31.339 SegmentComplete=subtitle:0 Index=41 Start=0.000000 End=258.759000 Duration=258.759000 offset_pts=0 start_pts=0 Frames=0 filename=7F955A_s7_41.vtt
+23:29:31.339 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_42.vtt.tmp' for writing
+23:29:31.339 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:31.339 SegmentComplete=subtitle:0 Index=42 Start=258.759000 End=258.759000 Duration=0.000000 offset_pts=0 start_pts=258759000 Frames=0 filename=7F955A_s7_42.vtt
+23:29:31.339 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_43.vtt.tmp' for writing
+23:29:31.339 Output #1, segment, to '/config/transcoding-temp/7F955A/7F955A_s5_%d.vtt':
+23:29:31.339   Metadata:
+23:29:31.339     encoder         : Lavf59.27.100
+23:29:31.339   Stream #1:0: Subtitle: webvtt (default)
+23:29:31.339     Metadata:
+23:29:31.339       encoder         : Lavc59.37.100 webvtt
+23:29:31.339 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:31.339 SegmentComplete=subtitle:0 Index=41 Start=0.000000 End=258.759000 Duration=258.759000 offset_pts=0 start_pts=0 Frames=0 filename=7F955A_s5_41.vtt
+23:29:31.339 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_42.vtt.tmp' for writing
+23:29:31.339 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:31.339 SegmentComplete=subtitle:0 Index=42 Start=258.759000 End=258.759000 Duration=0.000000 offset_pts=0 start_pts=258759000 Frames=0 filename=7F955A_s5_42.vtt
+23:29:31.339 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_43.vtt.tmp' for writing
+23:29:31.341 subtitle_kickoff: resend - pts: 258800
+23:29:31.341 subtitle_kickoff: call subtitle_resend_current 258810 frame->format: 3
+23:29:31.341 Output #2, segment, to '/config/transcoding-temp/7F955A/7F955A_s6_%d.vtt':
+23:29:31.341   Metadata:
+23:29:31.341     encoder         : Lavf59.27.100
+23:29:31.341   Stream #2:0: Subtitle: webvtt (default)
+23:29:31.341     Metadata:
+23:29:31.341       encoder         : Lavc59.37.100 webvtt
+23:29:31.341 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:31.341 SegmentComplete=subtitle:0 Index=41 Start=0.000000 End=258.832000 Duration=258.832000 offset_pts=0 start_pts=0 Frames=0 filename=7F955A_s6_41.vtt
+23:29:31.341 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_42.vtt.tmp' for writing
+23:29:31.341 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:31.342 SegmentComplete=subtitle:0 Index=42 Start=258.832000 End=258.832000 Duration=0.000000 offset_pts=0 start_pts=258832000 Frames=0 filename=7F955A_s6_42.vtt
+23:29:31.342 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_43.vtt.tmp' for writing
+23:29:31.342 elapsed=00:00:00.47 frame=  320 fps=0.0 q=-1.0 size=N/A time=-00:00:00.00 bitrate=N/A throttle=off speed=N/A    
+23:29:31.506 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:31.506 SegmentComplete=video:0 Index=43 Start=258.008000 End=263.971000 Duration=5.963000 offset_pts=0 start_pts=258008000 Frames=143 filename=7F955A_43.ts
+23:29:31.506 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_44.ts.tmp' for writing
+23:29:31.600 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:31.600 SegmentComplete=subtitle:0 Index=43 Start=258.759000 End=265.849000 Duration=7.090000 offset_pts=0 start_pts=258759000 Frames=2 filename=7F955A_s7_43.vtt
+23:29:31.600 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_44.vtt.tmp' for writing
+23:29:31.603 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:31.603 SegmentComplete=subtitle:0 Index=43 Start=258.759000 End=265.933000 Duration=7.174000 offset_pts=0 start_pts=258759000 Frames=2 filename=7F955A_s5_43.vtt
+23:29:31.603 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_44.vtt.tmp' for writing
+23:29:31.608 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:31.608 SegmentComplete=subtitle:0 Index=43 Start=258.832000 End=265.806000 Duration=6.974000 offset_pts=0 start_pts=258832000 Frames=2 filename=7F955A_s6_43.vtt
+23:29:31.608 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_44.vtt.tmp' for writing
+23:29:31.722 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:31.722 SegmentComplete=video:0 Index=44 Start=264.014000 End=269.977000 Duration=5.963000 offset_pts=0 start_pts=264014000 Frames=144 filename=7F955A_44.ts
+23:29:31.722 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_45.ts.tmp' for writing
+23:29:31.747 subtitle_kickoff: resend - pts: 271021
+23:29:31.747 subtitle_kickoff: call subtitle_resend_current 271031 frame->format: 3
+23:29:31.756 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:31.756 SegmentComplete=subtitle:0 Index=44 Start=266.100000 End=271.188000 Duration=5.088000 offset_pts=0 start_pts=266100000 Frames=2 filename=7F955A_s5_44.vtt
+23:29:31.756 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_45.vtt.tmp' for writing
+23:29:31.758 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:31.758 SegmentComplete=subtitle:0 Index=44 Start=266.016000 End=270.771000 Duration=4.755000 offset_pts=0 start_pts=266016000 Frames=1 filename=7F955A_s7_44.vtt
+23:29:31.758 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_45.vtt.tmp' for writing
+23:29:31.758 subtitle_kickoff: resend - pts: 271438
+23:29:31.758 subtitle_kickoff: call subtitle_resend_current 271448 frame->format: 3
+23:29:31.761 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:31.761 SegmentComplete=subtitle:0 Index=44 Start=266.233000 End=270.605000 Duration=4.372000 offset_pts=0 start_pts=266233000 Frames=1 filename=7F955A_s6_44.vtt
+23:29:31.761 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_45.vtt.tmp' for writing
+23:29:31.842 elapsed=00:00:00.97 frame=  677 fps=0.0 q=-1.0 size=N/A time=00:00:12.63 bitrate=N/A throttle=off speed=12.9x    
+23:29:31.934 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:31.934 SegmentComplete=video:0 Index=45 Start=270.020000 End=275.983000 Duration=5.963000 offset_pts=0 start_pts=270020000 Frames=144 filename=7F955A_45.ts
+23:29:31.934 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_46.ts.tmp' for writing
+23:29:31.968 subtitle_kickoff: resend - pts: 276359
+23:29:31.968 subtitle_kickoff: call subtitle_resend_current 276369 frame->format: 3
+23:29:32.006 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:32.006 SegmentComplete=subtitle:0 Index=45 Start=271.396000 End=276.193000 Duration=4.797000 offset_pts=0 start_pts=271396000 Frames=2 filename=7F955A_s7_45.vtt
+23:29:32.006 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_46.vtt.tmp' for writing
+23:29:32.006 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:32.006 SegmentComplete=subtitle:0 Index=45 Start=271.355000 End=276.193000 Duration=4.838000 offset_pts=0 start_pts=271355000 Frames=1 filename=7F955A_s5_45.vtt
+23:29:32.006 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_46.vtt.tmp' for writing
+23:29:32.006 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:32.007 SegmentComplete=subtitle:0 Index=45 Start=271.488000 End=275.173000 Duration=3.685000 offset_pts=0 start_pts=271488000 Frames=1 filename=7F955A_s6_45.vtt
+23:29:32.007 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_46.vtt.tmp' for writing
+23:29:32.175 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:32.175 SegmentComplete=video:0 Index=46 Start=276.026000 End=282.031000 Duration=6.005000 offset_pts=0 start_pts=276026000 Frames=145 filename=7F955A_46.ts
+23:29:32.175 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_47.ts.tmp' for writing
+23:29:32.243 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:32.243 SegmentComplete=subtitle:0 Index=46 Start=277.528000 End=283.534000 Duration=6.006000 offset_pts=0 start_pts=277528000 Frames=3 filename=7F955A_s5_46.vtt
+23:29:32.243 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_47.vtt.tmp' for writing
+23:29:32.249 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:32.250 SegmentComplete=subtitle:0 Index=46 Start=277.541000 End=283.736000 Duration=6.195000 offset_pts=0 start_pts=277541000 Frames=3 filename=7F955A_s6_46.vtt
+23:29:32.250 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_47.vtt.tmp' for writing
+23:29:32.250 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:32.250 SegmentComplete=subtitle:0 Index=46 Start=277.527000 End=283.825000 Duration=6.298000 offset_pts=0 start_pts=277527000 Frames=2 filename=7F955A_s7_46.vtt
+23:29:32.250 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_47.vtt.tmp' for writing
+23:29:32.342 elapsed=00:00:01.47 frame= 1002 fps=678 q=-1.0 size=N/A time=00:00:28.06 bitrate=N/A throttle=off speed=  19x    
+23:29:32.376 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:32.376 SegmentComplete=video:0 Index=47 Start=282.032000 End=288.037000 Duration=6.005000 offset_pts=0 start_pts=282032000 Frames=144 filename=7F955A_47.ts
+23:29:32.376 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_48.ts.tmp' for writing
+23:29:32.380 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:32.380 SegmentComplete=subtitle:0 Index=47 Start=283.923000 End=288.166000 Duration=4.243000 offset_pts=0 start_pts=283923000 Frames=2 filename=7F955A_s6_47.vtt
+23:29:32.380 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_48.vtt.tmp' for writing
+23:29:32.428 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:32.428 SegmentComplete=subtitle:0 Index=47 Start=283.992000 End=289.664000 Duration=5.672000 offset_pts=0 start_pts=283992000 Frames=2 filename=7F955A_s7_47.vtt
+23:29:32.428 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_48.vtt.tmp' for writing
+23:29:32.428 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:32.428 SegmentComplete=subtitle:0 Index=47 Start=283.701000 End=289.665000 Duration=5.964000 offset_pts=0 start_pts=283701000 Frames=2 filename=7F955A_s5_47.vtt
+23:29:32.428 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_48.vtt.tmp' for writing
+23:29:32.598 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:32.598 SegmentComplete=video:0 Index=48 Start=288.079000 End=294.001000 Duration=5.922000 offset_pts=0 start_pts=288079000 Frames=143 filename=7F955A_48.ts
+23:29:32.598 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_49.ts.tmp' for writing
+23:29:32.646 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:32.646 SegmentComplete=subtitle:0 Index=48 Start=288.237000 End=295.251000 Duration=7.014000 offset_pts=0 start_pts=288237000 Frames=3 filename=7F955A_s6_48.vtt
+23:29:32.646 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_49.vtt.tmp' for writing
+23:29:32.676 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:32.676 SegmentComplete=subtitle:0 Index=48 Start=289.832000 End=296.464000 Duration=6.632000 offset_pts=0 start_pts=289832000 Frames=3 filename=7F955A_s5_48.vtt
+23:29:32.676 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_49.vtt.tmp' for writing
+23:29:32.678 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:32.678 SegmentComplete=subtitle:0 Index=48 Start=289.831000 End=296.505000 Duration=6.674000 offset_pts=0 start_pts=289831000 Frames=2 filename=7F955A_s7_48.vtt
+23:29:32.678 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_49.vtt.tmp' for writing
+23:29:32.808 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:32.808 SegmentComplete=video:0 Index=49 Start=294.044000 End=300.007000 Duration=5.963000 offset_pts=0 start_pts=294044000 Frames=144 filename=7F955A_49.ts
+23:29:32.808 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_50.ts.tmp' for writing
+23:29:32.842 elapsed=00:00:01.97 frame= 1331 fps=673 q=-1.0 size=N/A time=00:00:39.78 bitrate=N/A throttle=off speed=20.1x    
+23:29:32.852 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:32.852 SegmentComplete=subtitle:0 Index=49 Start=295.685000 End=301.299000 Duration=5.614000 offset_pts=0 start_pts=295685000 Frames=3 filename=7F955A_s6_49.vtt
+23:29:32.853 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_50.vtt.tmp' for writing
+23:29:32.860 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:32.860 SegmentComplete=subtitle:0 Index=49 Start=296.713000 End=301.384000 Duration=4.671000 offset_pts=0 start_pts=296713000 Frames=2 filename=7F955A_s7_49.vtt
+23:29:32.860 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_50.vtt.tmp' for writing
+23:29:32.860 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:32.860 SegmentComplete=subtitle:0 Index=49 Start=296.630000 End=301.385000 Duration=4.755000 offset_pts=0 start_pts=296630000 Frames=2 filename=7F955A_s5_49.vtt
+23:29:32.860 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_50.vtt.tmp' for writing
+23:29:33.019 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+23:29:33.019 SegmentComplete=video:0 Index=50 Start=300.050000 End=306.013000 Duration=5.963000 offset_pts=0 start_pts=300050000 Frames=144 filename=7F955A_50.ts
+23:29:33.019 [segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A_51.ts.tmp' for writing
+23:29:33.019 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+23:29:33.019 SegmentComplete=subtitle:0 Index=50 Start=301.551000 End=305.347000 Duration=3.796000 offset_pts=0 start_pts=301551000 Frames=2 filename=7F955A_s7_50.vtt
+23:29:33.019 [segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7_51.vtt.tmp' for writing
+23:29:33.088 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+23:29:33.088 SegmentComplete=subtitle:0 Index=50 Start=301.302000 End=307.430000 Duration=6.128000 offset_pts=0 start_pts=301302000 Frames=4 filename=7F955A_s6_50.vtt
+23:29:33.088 [segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6_51.vtt.tmp' for writing
+23:29:33.089 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+23:29:33.089 SegmentComplete=subtitle:0 Index=50 Start=301.552000 End=307.641000 Duration=6.089000 offset_pts=0 start_pts=301552000 Frames=2 filename=7F955A_s5_50.vtt
+23:29:33.089 [segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5_51.vtt.tmp' for writing
+23:29:33.180 
+
+[q] command received. Exiting.
+
+[segment @ 0xc343b00] Opening '/config/transcoding-temp/7F955A/7F955A.m3u8.tmp' for writing
+SegmentComplete=video:0 Index=51 Start=306.056000 End=309.600000 Duration=3.544000 offset_pts=0 start_pts=306056000 Frames=86 filename=7F955A_51.ts
+[segment @ 0xc2dc5c0] Opening '/config/transcoding-temp/7F955A/7F955A_s5.m3u8.tmp' for writing
+SegmentComplete=subtitle:0 Index=51 Start=307.808000 End=310.019000 Duration=2.211000 offset_pts=0 start_pts=307808000 Frames=1 filename=7F955A_s5_51.vtt
+[segment @ 0xc2def80] Opening '/config/transcoding-temp/7F955A/7F955A_s6.m3u8.tmp' for writing
+SegmentComplete=subtitle:0 Index=51 Start=307.759000 End=310.031000 Duration=2.272000 offset_pts=0 start_pts=307759000 Frames=1 filename=7F955A_s6_51.vtt
+[segment @ 0xc2e1940] Opening '/config/transcoding-temp/7F955A/7F955A_s7.m3u8.tmp' for writing
+SegmentComplete=subtitle:0 Index=51 Start=306.056000 End=310.018000 Duration=3.962000 offset_pts=0 start_pts=306056000 Frames=2 filename=7F955A_s7_51.vtt
+elapsed=00:00:02.31 frame= 1537 fps=664 q=-1.0 Lsize=N/A time=00:00:49.04 bitrate=N/A throttle=off speed=21.2x    
+video:166998kB audio:1552kB subtitle:2kB other streams:0kB global headers:0kB muxing overhead: unknown
+[aac @ 0xc346c80] Qavg: 706.813
+EXIT
+
+======= ExtraData
+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
+---
