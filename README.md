@@ -230,22 +230,23 @@ Saved here for quick reference.
 
 ---
 ## Symlinks
-~/.config/suckless/dunst        -> ~/dotfiles/suckless/dunst
-~/.config/suckless/dwm          -> ~/dotfiles/suckless/dwm
-~/.config/suckless/picom        -> ~/dotfiles/suckless/picom
-~/.config/suckless/rofi         -> ~/dotfiles/suckless/rofi
-~/.config/suckless/scripts      -> ~/dotfiles/suckless/scripts
-~/.config/suckless/slstatus     -> ~/dotfiles/suckless/slstatus
-~/.config/suckless/st           -> ~/dotfiles/suckless/st
-~/.config/suckless/sxhkd        -> ~/dotfiles/suckless/sxhkd
-~/.config/suckless/tabbed       -> ~/dotfiles/suckless/tabbed
-~/.config/suckless/wallpaper    -> ~/dotfiles/suckless/wallpaper
-~/.config/bash                  -> ~/dotfiles/bash
-~/.config/flameshot             -> ~/dotfiles/flameshot
-~/.config/yazi                  -> ~/dotfiles/yazi
-~/docker/emby                   -> ~/dotfiles/docker/emby
-~/.bashrc                       -> ~/dotfiles/bashrc
-/etc/X11/xorg.conf              -> ~/dotfiles/nvidia-config-x11/xorg.conf
+
+- `~/.config/suckless/dunst` → `~/dotfiles/suckless/dunst`
+- `~/.config/suckless/dwm` → `~/dotfiles/suckless/dwm`
+- `~/.config/suckless/picom` → `~/dotfiles/suckless/picom`
+- `~/.config/suckless/rofi` → `~/dotfiles/suckless/rofi`
+- `~/.config/suckless/scripts` → `~/dotfiles/suckless/scripts`
+- `~/.config/suckless/slstatus` → `~/dotfiles/suckless/slstatus`
+- `~/.config/suckless/st` → `~/dotfiles/suckless/st`
+- `~/.config/suckless/sxhkd` → `~/dotfiles/suckless/sxhkd`
+- `~/.config/suckless/tabbed` → `~/dotfiles/suckless/tabbed`
+- `~/.config/suckless/wallpaper` → `~/dotfiles/suckless/wallpaper`
+- `~/.config/bash` → `~/dotfiles/bash`
+- `~/.config/flameshot` → `~/dotfiles/flameshot`
+- `~/.config/yazi` → `~/dotfiles/yazi`
+- `~/docker/emby` → `~/dotfiles/docker/emby`
+- `~/.bashrc` → `~/dotfiles/bashrc`
+- `/etc/X11/xorg.conf` → `~/dotfiles/nvidia-config-x11/xorg.conf`
 
 ---
 ## 💻 Setup on a New PC
