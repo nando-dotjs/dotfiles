@@ -136,7 +136,3 @@ if [ -f "$HOME/.bashrc.local" ]; then
     . "$HOME/.bashrc.local"
 fi
 export PATH="$HOME/.local/bin:$PATH"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
