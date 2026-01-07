@@ -114,6 +114,7 @@ alias g.='cd ~/.config'
 alias gd='cd ~/Downloads'
 alias gD='cd ~/Documents'
 alias gv='cd ~/Videos'
+alias dotlinks='find ~ /etc -type l -ls 2>/dev/null | grep dotfiles'
 
 # DWM aliases
 alias gdw='cd ~/.config/suckless/dwm'
