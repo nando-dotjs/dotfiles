@@ -1,4 +1,0 @@
-cuda-keyring
-debian-nvidia-installer
-firmware-nvidia-graphics
-nvidia-open
