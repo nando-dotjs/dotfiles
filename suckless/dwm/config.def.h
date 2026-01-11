@@ -51,17 +51,16 @@ static const Rule rules[] = {
 	{ "Transmission-gtk",   NULL,       NULL,       0,            1,           1,           -1,        0  },
 	{ "Lxappearance",       NULL,       NULL,       0,            1,           1,           -1,        0  },
 	{ "Pavucontrol",        NULL,       NULL,       0,            1,           1,           -1,        0  },
-    	{ "Rofi",               NULL,       NULL,       0,            1,           1,           -1,        0  },
+    { "Rofi",               NULL,       NULL,       0,            1,           1,           -1,        0  },
 	{ "st-256color",        NULL,   "scratchpad",   0,            1,           1,           -1,       's' },
 	{ "st-256color",        NULL,   "pulsemixer",   0,            1,           1,           -1,       'a' },
-    	{ "st-256color",        NULL,     "Yazi: ~/",   0,            1,           1,           -1,       'r' },
-    	{ "Microsoft-edge",     NULL,       NULL,       1 << 0,       0,           0,            1,        0  }, /* Teams PWA, Edge */
-    	{ "TeamViewer",         NULL,       NULL,       1 << 1,       0,           0,            1,        0  }, 
-    	{ "firefox-esr",        NULL,       NULL,       1 << 0,       0,           0,            0,        0  },
-    	{ "discord",            NULL,       NULL,       1 << 1,       0,           0,            0,        0  },
-    	{ "steam",              NULL,       NULL,       1 << 2,       0,           0,            0,        0  },
-    	{ "Geany",              NULL,       NULL,       1 << 3,       0,           0,            0,        0  },
-    	{ "obs",                NULL,       NULL,       1 << 8,       0,           0,            0,        0  },
+    { "Microsoft-edge",     NULL,       NULL,       1 << 0,       0,           0,            1,        0  }, /* Teams PWA, Edge */
+    { "TeamViewer",         NULL,       NULL,       1 << 1,       0,           0,            1,        0  }, 
+    { "firefox-esr",        NULL,       NULL,       1 << 0,       0,           0,            0,        0  },
+    { "discord",            NULL,       NULL,       1 << 1,       0,           0,            0,        0  },
+    { "steam",              NULL,       NULL,       1 << 2,       0,           0,            0,        0  },
+    { "Geany",              NULL,       NULL,       1 << 3,       0,           0,            0,        0  },
+    { "obs",                NULL,       NULL,       1 << 8,       0,           0,            0,        0  },
     
 };
 
@@ -119,7 +118,6 @@ static const char *termcmd[]  = { "wezterm", NULL };
 /*First arg only serves to match against key in rules*/
 static const char *scratchpadcmd[] = {"s", "st", "-t", "scratchpad", NULL};
 static const char *pulsemixercmd[] = {"a", "st", "-t", "pulsemixer", "-e", "pulsemixer", NULL};
-static const char *yazicmd[] = { "r", "st", "-e", "/home/linuxbrew/.linuxbrew/bin/yazi", NULL };
 
 #include "movestack.c"
 static const Key keys[] = {
@@ -128,7 +126,6 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_Return,      togglescratch,  {.v = scratchpadcmd } },
 	{ MODKEY|ShiftMask,             XK_a,      togglescratch,  {.v = pulsemixercmd } },
-	{ MODKEY,                       XK_r,      togglescratch,  {.v = yazicmd } },
 	{ MODKEY|ControlMask,           XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_Right,  focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_Left,   focusstack,     {.i = -1 } },
