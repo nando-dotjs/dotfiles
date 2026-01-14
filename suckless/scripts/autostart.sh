@@ -5,6 +5,12 @@ slstatus &
 # polkit
 lxpolkit &
 
+# wifi
+nm-applet &
+
+# blueman (bluetooth)
+blueman-applet &
+
 # clipboard history
 copyq &
 

@@ -23,4 +23,4 @@ services:
       # Media (TODO en tu HOME)
       - /home/nando/media/series:/mnt/series
       - /home/nando/media/peliculas:/mnt/peliculas
-      - /media/nando/4TB Disc:/mnt/peliculas4tb
+      - /media/nando/4TB Disc1:/mnt/peliculas4tb
